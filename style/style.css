@@ -20,7 +20,3 @@ button {
     position: absolute;
     color: red;
 }
-
-#button.on {
-    color: blue;
-}
