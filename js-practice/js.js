@@ -60,3 +60,12 @@ if (true) {
     let letVariable = 'This is true'
     console.log(letVariable)
 }
+// Functions
+
+// Function declaration
+function greet() {
+    console.log('Hello there')
+}
+greet()
+
+// Function expression
