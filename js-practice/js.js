@@ -69,3 +69,33 @@ function greet() {
 greet()
 
 // Function expression
+var somthing = function() {
+    console.log('Express Something')
+}
+somthing()
+    //============================================================
+
+// Again (Convert them to Arrow function)
+// Name function multiple parameters
+function sum(a, b) {
+    return a + b
+}
+let sum2 = (a, b) => a + b
+
+// Name function with one parameter
+function randomFunct() {
+    return Math.random
+}
+let randomFunct2 = (number) => number >= 0
+
+// Name function with no parameter
+function randomNumber() {
+    return Math.random
+}
+let randomNumber = () => Math.random
+
+// Anonymus function "function with no name"
+document.addEventListener('click', function() {
+    console.log('click')
+})
+document.addEventListener('click', () => console.log('click'))
