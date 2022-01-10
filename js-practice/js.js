@@ -69,11 +69,14 @@ function greet() {
 greet()
 
 // Function expression
-var somthing = function() {
-    console.log('Express Something')
-}
+let somthing = () => console.log('Express Something')
 somthing()
-    //============================================================
+    // Another example of Function expression
+var cost = $10
+let printRecipt = () => console.log('the cost was ' + cost)
+printRecipt()
+
+//============================================================
 
 // Again (Convert them to Arrow function)
 // Name function multiple parameters
@@ -99,3 +102,54 @@ document.addEventListener('click', function() {
     console.log('click')
 })
 document.addEventListener('click', () => console.log('click'))
+    //========================ME======================================let ... = () => ...
+let suma = (a, b) => a + b
+suma()
+
+let randomFunct = () => Math.random
+random()
+
+let randomNumber = () => Math.random
+randomNumber()
+
+document.addEventListener('click', () => console.log('click'))
+
+let greet = (name, lasName) => console.log('Hello ' + name + '' + lastName)
+
+//==========================NEW ARROW FUNCTIONS EXAMPLES=========================
+
+// Traditional Function
+let sumaDeCien = (a) => a + 100
+sumaDeCien()
+
+// Traditional Function
+let name1 = (a, b) => a + b + 100
+
+console.log(name1)
+
+// Traditional Function (no arguments)
+let a = 4
+let b = 2
+
+let sum1 = () => a + b + 100
+console.log(sum1)
+
+// Traditional Function
+function sum2(a, b) {
+    let c = 42
+    return a + b + c
+}
+sum2()
+
+let c = 42
+let sum3 = (a, b) => a + b + c
+sum3()
+
+// Traditional Function
+let bob = (a) => a + 100
+console.log(bob)
+
+var a = 10
+
+let suma = (a) => a + 100
+console.log(suma)
