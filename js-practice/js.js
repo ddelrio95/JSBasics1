@@ -153,3 +153,4 @@ var a = 10
 
 let suma = (a) => a + 100
 console.log(suma)
+    //lasr part
